@@ -1,0 +1,21 @@
+body{
+    color: white;
+}
+
+.table td,.table th{
+    border: none;
+}
+
+.table{
+    text-align: center;
+}
+
+.table th{
+    color: white;
+}
+
+.scrollable{
+    max-height: 200px;
+    overflow: auto;
+    margin-bottom: 20px;
+}

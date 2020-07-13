@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Fresh;
+    src: url('../fonts/Fresh Eaters.otf');
+    font-weight: 400;
+}
+
+body{
+	background-color: #222222;
+}
+
+h1,h2{
+	font-family: 'Fresh';
+}
+
+.details{
+	margin-top: 50px;
+}
+
+.btn{
+	width: 100%;
+}
+
+.form-control{
+	border-radius: 0;
+	background-color: #222222;
+	border: none;
+	color: white;
+	border-bottom: 1px solid white;
+}
+
+.form-control.manager{
+	border: none;
+	color: white;
+	border-bottom: none;
+	outline: none;
+}
+
+.form-control.manager:focus{
+	background-color: #222222;
+	outline-color: green;
+}
+
+body::-webkit-scrollbar {
+    background-color:#222222;
+    width:10px;
+    height:0px;
+}
+
+body::-webkit-scrollbar-track {
+	background-color:#222222;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #777777;
+    border-radius: 10px;
+}
+
+.back{
+	width:50px;
+	height:50px;
+	position:absolute;
+	right: 10px;
+	top:10px;
+	border-radius:50%;
+}
+
+.back img{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+.settings{
+	width:45px;
+	height:45px;
+	position:absolute;
+	right: 70px;
+	top:10px;
+	border-radius:50%;
+}
+
+.settings img{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+.scroll::-webkit-scrollbar {
+    background-color:#222222;
+    width:10px;
+    height:0px;
+}
+
+.scroll::-webkit-scrollbar-track {
+	background-color:#222222;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+	background-color: #777777;
+    border-radius: 10px;
+}

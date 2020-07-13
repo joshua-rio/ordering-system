@@ -1,0 +1,37 @@
+body{
+    color: white;
+}
+
+.table td,.table th{
+    border: none;
+}
+
+.table{
+    text-align: center;
+}
+
+.table th{
+    color: white;
+}
+
+.scrollable{
+    max-height: 200px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.tbl::-webkit-scrollbar {
+    background-color:#222222;
+    width:10px;
+    height:10px;
+}
+
+.tbl::-webkit-scrollbar-track {
+    background-color: #222222;
+    
+}
+
+.tbl::-webkit-scrollbar-thumb {
+    background-color: #777777;
+    border-radius: 10px;
+}

@@ -1,0 +1,37 @@
+.discountBtn{
+    width: 14vw;
+    height: 14vw;
+    margin: 1vw;
+    background-color: gold;
+    float: left;
+    transition: all 0.25s ease-in-out;
+}
+
+.discountBtn:hover{
+    background-color: goldenrod;
+}
+
+.discountType{
+    color: white;
+    float: left;
+    padding: 5px;
+}
+
+.discountType.active{
+    background-color: gold;
+}
+
+.form-check-input{
+    width: 20px;
+    height: 20px;
+}
+
+.form-check-label{
+    font-size: 18px;
+    color: white;
+    margin: 0px;
+    margin-left: 5px;
+}
+.date {
+    float:left;
+}

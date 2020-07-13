@@ -1,0 +1,102 @@
+.modal{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #555555; /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+span{
+  float:left;
+}
+.modal-content{
+background-color: #555555; /* Fallback color */
+  
+
+
+}
+p{
+  color:black;
+  font-family: 'Fresh';
+}
+.data{
+  width: 100%;
+  border: 5px solid;
+}
+.data th{
+  color:black;
+  padding :.75rem;
+  font-family: 'Fresh';
+  background-color: #E0A800;
+
+  }
+.data tr{
+  font-family: 'Fresh';
+  color:black;
+}
+.total{
+  float:right;
+  border-style: solid;
+  padding: .75rem;
+}
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  width: 10px;
+ /* color:red;*/
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+table{
+  color:white;
+}
+.left {
+    float:left;
+    padding :.75rem;
+    font-family: 'Fresh';
+    color:black;
+    position: absolute; display: inline-block;
+}
+.right{
+  float:right;
+  color:black;
+  padding :.75rem;
+  font-family: 'Fresh';
+ 
+}
+.adjust{
+  padding-left :1rem;
+  float:left;
+
+}
+.indented{
+  padding-left:4rem;
+}
+.tbl_price td{
+   font-family: 'Fresh';
+  color:black;
+
+
+}
